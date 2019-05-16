@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import Navbar from './Components/navbar/navbar.js';
+import Header from './Components/header/header.js';
+import Category from './Components/category/category.js';
+import Product from './Components/product/product.js';
+import Centerbox from './Components/centerbox/Centerbox.js';
+import Circlebox from './Components/circle/circle.js';
+import Brands from './Components/brand/brand.js';
+import Blog from './Components/blog/blog.js';
+import Footer from './Components/footer/footer.js';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="main-container">
+      <Navbar />
+      <Header />
+      <Category />
+      <Product />
+      <Centerbox />
+      <Circlebox />
+      <Brands />
+      <Blog />
+      <Footer />
     </div>
   );
 }

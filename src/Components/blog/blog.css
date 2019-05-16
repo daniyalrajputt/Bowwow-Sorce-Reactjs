@@ -1,0 +1,82 @@
+
+.blog-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.blog-items div img {
+    width: 350px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.blog-container {
+    width: 400px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.blog-container h3,
+p,
+span {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.blog-container span {
+    color: #664321;
+}
+
+.bullets-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-circle {
+    color: #664321;
+    margin: 40px 0px;
+    padding-left: 10px;
+}
+
+.order-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.order {
+    border: 2px solid #664321;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    flex-basis: 250px;
+    margin-top: 10px;
+}
+
+.order-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.heading {
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
+    color: #664321;
+    margin: 0;
+}
+
+.order p {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: #664321;
+    margin: 1px;
+}
